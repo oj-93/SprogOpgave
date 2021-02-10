@@ -1,8 +1,7 @@
 package com.company;
 
-public class Svensk implements Dialog{
-
-    private String s = "svensk";
+public class Finsk implements Dialog{
+    private String s = "Finsk";
     @Override
     public String getLanguage() {
         return s;
@@ -10,11 +9,11 @@ public class Svensk implements Dialog{
 
     @Override
     public String quit() {
-        return "du musta trykka q for at quitte";
+        return "paina q poistuaksesi";
     }
 
     @Override
     public String selectedLanguage() {
-        return "dit valgte sprog er desværre";
+        return "valitsemasi kieli on";
     }
 }
