@@ -18,4 +18,14 @@ public class Dansk implements Dialog {
     public String selectedLanguage() {
         return "det valgte sprog er ";
     }
+
+    @Override
+    public String getCapital() {
+        return "København";
+    }
+
+    @Override
+    public int getPopulation() {
+        return 5806000;
+    }
 }

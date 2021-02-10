@@ -8,6 +8,10 @@ public interface Dialog {
 
     public String selectedLanguage();
 
+    public String getCapital();
+
+    public int getPopulation();
+
     // find på to dialoger selv i gruppen.
 
 }

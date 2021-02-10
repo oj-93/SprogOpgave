@@ -17,4 +17,14 @@ public class English implements Dialog{
     public String selectedLanguage() {
         return "the selected language is ";
     }
+
+    @Override
+    public String getCapital() {
+        return "London town";
+    }
+
+    @Override
+    public int getPopulation() {
+        return 55980000;
+    }
 }

@@ -17,4 +17,14 @@ public class Svensk implements Dialog{
     public String selectedLanguage() {
         return "dit valgte sprog er desværre";
     }
+
+    @Override
+    public String getCapital() {
+        return "skraldespand";
+    }
+
+    @Override
+    public int getPopulation() {
+        return 10230000;
+    }
 }

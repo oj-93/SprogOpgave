@@ -1,7 +1,8 @@
 package com.company;
 
-public class Finsk implements Dialog{
-    private String s = "Finsk";
+public class Portugisisk implements Dialog {
+
+    private String s = "Portugisisk";
     @Override
     public String getLanguage() {
         return s;
@@ -9,21 +10,21 @@ public class Finsk implements Dialog{
 
     @Override
     public String quit() {
-        return "paina q poistuaksesi";
+        return "pressione q para sair";
     }
 
     @Override
     public String selectedLanguage() {
-        return "valitsemasi kieli on";
+        return "seu idioma escolhido é";
     }
 
     @Override
     public String getCapital() {
-        return "Helsinki";
+        return "Lissabon";
     }
 
     @Override
     public int getPopulation() {
-        return 10;
+        return 10280000;
     }
 }
