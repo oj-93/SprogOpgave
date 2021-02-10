@@ -12,6 +12,8 @@ public class Sprog  {
         // her tilføjer du ny sprog
         dialoger.put("da", new Dansk());
         dialoger.put("eng", new English());
+        dialoger.put("svk", new Svensk());
+        dialoger.put("fnsk", new Finsk());
 
     }
     public Dialog SkiftSprog(String s) {
