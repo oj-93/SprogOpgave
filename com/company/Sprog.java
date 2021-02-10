@@ -20,6 +20,5 @@ public class Sprog  {
     public Dialog SkiftSprog(String s) {
 
        return dialoger.getOrDefault(s, new English());
-
     }
 }
